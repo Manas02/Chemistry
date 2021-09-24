@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
     r = atof(argv[1]);
     printf("Lennard-Jones Potential\n");
     for(float i = -r; i < r; i++){
-        printf("r = %f Angstrong, V_lg = %E kJ/mol\n", i, lennard_jones(i));   
+        printf("r = %f Angstrom, V_lg = %E kJ/mol\n", i, lennard_jones(i));   
     }
     return 0;   
 }
